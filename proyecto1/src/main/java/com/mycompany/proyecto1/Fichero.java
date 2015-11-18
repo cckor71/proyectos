@@ -55,7 +55,7 @@ public class Fichero {
         PrintWriter pw = null;
         try
         {
-            fichero = new FileWriter("textoprueba.txt");
+            fichero = new FileWriter(arch);
             pw = new PrintWriter(fichero);
  
             for (int i = 0; i < 10; i++)
