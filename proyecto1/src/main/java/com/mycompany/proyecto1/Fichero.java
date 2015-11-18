@@ -17,6 +17,7 @@ import java.io.PrintWriter;
  */
 public class Fichero {
     private String arch;
+    
     public Fichero(String arch){
     this.arch=arch;}
     
